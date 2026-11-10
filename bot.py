@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 from telegram.error import TelegramError
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8953664897:AAH0iiPRVvr9-DevH6QQNdmhVh3stRP393Q")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8953664897:AAElcm5RijgEkt64KQJJYUU6Lc-vMtB24sQ")
 OWNER_IDS = {6236556853}
 _oe = os.environ.get("OWNER_ID", "")
 if _oe:
