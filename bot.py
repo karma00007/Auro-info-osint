@@ -15,7 +15,7 @@ from telegram.ext import (
 from telegram.error import TelegramError
 
 # ⚠️ Yahan apna naya token daal lena agar zaroorat ho
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8953664897:AAEdl_9J9P-wdlyKz-sL7nYTIvWr26QrDdk")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8953664897:AAElcm5RijgEkt64KQJJYUU6Lc-vMtB24sQ")
 OWNER_IDS = {6236556853}
 _oe = os.environ.get("OWNER_ID", "")
 if _oe:
