@@ -358,7 +358,7 @@ async def resetall_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"✅ <b>Success!</b>\nSaare {updated_count} users ka credit reset karke <b>{DEFAULT_CREDITS}</b> kar diya gaya hai.", parse_mode="HTML")
 
 # ───────── MAIN MESSAGE HANDLER ─────────
-async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE)
+async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     text = update.message.text.strip()
     get_user(user.id, user.username or "", user.full_name or "")
