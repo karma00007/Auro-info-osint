@@ -359,9 +359,10 @@ async def resetall_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ───────── MAIN MESSAGE HANDLER ─────────
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-       user = update.effective_user
-    text = update.message.text.strip()
-    get_user(user.id, user.username or "", user.full_name or "")
+user = update.effective_user
+text = update.message.text.strip()
+get_user(user.id, user.username or "", user.full_name or "")
+
 
     not_available = [
         "📞 Hi Tek", "🚙 Vehicle2 Lookup", "🏦 UPI Lookup", "👨‍💻 Telegram ID Lookup", "🌍 IP Lookup", 
